@@ -12,7 +12,7 @@ int main(void) {
 	scanf ("%f",&per);
 	
 	//operation defination
-	hypo = (pow(per,2))+ (pow(bas,2));
+	hypo = (pow(per,2))+ (pow(bas,2)/2);
 	
 	printf ("hypotainus=%f",hypo );
 
