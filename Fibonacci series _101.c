@@ -14,8 +14,9 @@ int fibo(int i)
 
  int main()
      {
-         int i;
-         for(i=0;i<10;i++)
+         int i,n;
+         scanf("%d",&n);
+         for(i=0;i<n;i++)
          {
             printf("%d",fibo(i)); 
          }
