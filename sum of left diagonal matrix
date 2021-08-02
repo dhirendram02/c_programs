@@ -12,3 +12,17 @@ int main() {
             scanf("%d",&arr[r][c]);
         }
     }
+for(r=0;r<n;r++)
+    {
+        m=m-1;
+        for(c=0;c<n;c++)
+        {
+            if(c==m)
+            {
+            sum=sum+arr[r][c];
+            }
+        }
+    }
+    printf("%d",sum);
+	return 0;
+}
